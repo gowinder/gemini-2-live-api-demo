@@ -20,10 +20,15 @@ export const CONFIG = {
         BUFFER_SIZE: 7680,
         CHANNELS: 1
     },
+    // Basic authentication settings
+    AUTH: {
+        USERNAME: 'admin',
+        PASSWORD: 'your_secure_password'
+    },
     // If you are working in the RoArm branch 
     // ROARM: {
     //     IP_ADDRESS: '192.168.1.4'
     // }
   };
   
-  export default CONFIG; 
+  export default CONFIG;
